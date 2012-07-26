@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<box xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <setting pref="browser.startup.homepage_override.mstone" title="Show the 'Whats new' page on switching between different versions of Firefox" type="radio" oncommand='if(Services.prefs.getCharPref("browser.startup.homepage_override.mstone")=="version") {Services.prefs.setCharPref("browser.startup.homepage_override.mstone", Components.classes["@mozilla.org/xre/app-info;1"].getService(Components.interfaces.nsIXULAppInfo).version)}'>
+    <radiogroup>
+      <radio value="version" label="Yes (Firefox default)"/>
+      <radio value="ignore" label="No (Recommended)"/>
+    </radiogroup>
+  </setting>
+
+</box>
