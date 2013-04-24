@@ -5,8 +5,8 @@
     <creator>Siddhartha Dugar</creator>
     <id>skip_compatibility_check@sdrocking.com</id>
     <name>Skip Addon Compatibility Check</name>
-    <description>Disable the addon compatibility check (and other things) on switching between different versions of Firefox.</description>
-    <version>2</version>
+    <description>Disable the addon compatibility check window and the first run page when switching between different versions of Firefox.</description>
+    <version>3</version>
 
     <bootstrap>true</bootstrap>
     <type>2</type>
